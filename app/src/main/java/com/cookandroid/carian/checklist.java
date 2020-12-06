@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class home extends AppCompatActivity {
+public class checklist extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -16,7 +16,7 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.login);
 
         // 액티비티 전환
-        Button button1 = (Button)findViewById(R.id.newActivity);
+        Button button1 = (Button)findViewById(R.id.login);
         button1.setOnClickListener(new View.OnClickListener() {
 
             @Override

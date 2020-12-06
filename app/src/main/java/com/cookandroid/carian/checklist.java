@@ -14,7 +14,7 @@ public class checklist extends AppCompatActivity {
         setContentView(R.layout.checklist);
 
         final ToggleButton tb3 =
-                (ToggleButton) this.findViewById(R.id.toggleButton2);
+                (ToggleButton) this.findViewById(R.id.toggleButton10);
 
         tb3.setOnClickListener(new View.OnClickListener() {
 

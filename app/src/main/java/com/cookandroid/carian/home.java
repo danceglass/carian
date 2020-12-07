@@ -17,9 +17,10 @@ public class home extends AppCompatActivity {
 
         Button button=findViewById(R.id.makechecklist);
         button.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(home.this,checklist.class);
+                Intent intent=new Intent(home.this,checklist.class);  // 버튼 클릭시 레이아웃 전환 명령어 (intent 명령어 활용)
                 startActivity(intent);
             }
         });

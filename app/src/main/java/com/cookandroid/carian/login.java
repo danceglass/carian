@@ -21,7 +21,7 @@ public class login extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "로그인되었습니다", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "로그인되었습니다", Toast.LENGTH_LONG).show();  // 화면 전환시 메시지 창 띄움 (toast 명령어 활용)
 
                 // 액티비티 전환 코드
                 Intent intent = new Intent(getApplicationContext(), home.class);

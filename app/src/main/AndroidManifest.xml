@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".checklist"></activity>
+        <activity android:name=".checklist2"></activity>
+        <activity android:name=".checklist" />
         <activity android:name=".home" />
         <activity android:name=".login">
             <intent-filter>
